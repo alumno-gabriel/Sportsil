@@ -1,0 +1,11 @@
+li {
+    font-size: map-get($tamanio-tipografia, parrafos );
+}
+
+.menudesktop{
+    @extend %flex-center;
+}
+
+.mobile{
+    @include flexbox(column, flex-start, center);
+}

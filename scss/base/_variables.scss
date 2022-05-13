@@ -1,0 +1,26 @@
+$color-principal: #26b5bd;
+
+/* MAPS */
+
+$tamanio-tipografia:(
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 14,
+);
+
+/* EXTEND */ 
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin flexbox ($direction, $justify, $align){
+    display: flex;
+    direction: $direction;
+    justify-content: $justify;
+    align-items: $align;    
+}
+
+
