@@ -17,6 +17,18 @@
   color: #26b5bd;
 }
 
+.btn-material .sds {
+  font-size: 12px;
+}
+
+.class {
+  color: red;
+}
+
+.gabi {
+  background-color: red;
+}
+
 li {
   font-size: 14;
 }

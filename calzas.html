@@ -9,6 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Sportil</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
+
+    <link href="assets/aos/aos.css" rel="stylesheet">
+    <link href="assets/glightbox/css/glightbox.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/style.css">
     <script src="none_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </head>
@@ -17,85 +21,99 @@
       <div><img src="./imagenes/Logo.jpeg" alt="logodelapagina" class="logodelapagina"></div>
       <nav>
         <ul class="menu li"> 
-          <li><a href="./index.html"> Inicio </a></li>
-          <li class="menu_submenu">Productos
+          <li><a href="./index.html"> INICIO </a></li>
+          <li class="menu_submenu">PRODUCTOS
             <ul class="submenu">
-              <li><a href="./camperas.html">Camperas</a></li>
-              <li><a href="./buzos.html">Buzos</a></li>
-              <li><a href="./calzas.html">Calzas</a></li>
-              <li><a href="./pantalones.html">Pantalones</a></li>
-              <li><a href="./remeras.html">Remeras</a></li>
-              <li><a href="./musculosas.html">Musculosas</a></li>
+              <li><a href="./camperas.html">CAMPERAS</a></li>
+              <li><a href="./buzos.html">BUZOS</a></li>
+              <li><a href="./calzas.html">CALZAS</a></li>
+              <li><a href="./pantalones.html">PANTALONES</a></li>
+              <li><a href="./remeras.html">REMERAS</a></li>
+              <li><a href="./musculosas.html">MUSCULOSAS</a></li>
             </ul>
           </li>
-          <li><a href="./contactanos.html"> Contactanos </a></li>
+          <li><a href="./contactanos.html"> CONTACTANOS </a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="main-grid">
+    <main>
+      <div class="main-grid">
       <div>
-        <img class: src="./imagenes/Calzas/Calza corta jaspeada.jpeg" alt="calza corta jaspeada" class="galeria_imagen">
-        <h4>Calza corta jaspeada</h4>
+        <img class: src="./imagenes/Calzas/Calza corta jaspeada.jpeg" alt="calza corta jaspeada" class="galeria_imagen" data-title="Calza Corta Jaspeada" data-description="Precio $2500">
+        <h5>Calza Corta Jaspeada</h5>
         <p>Precio $2500</p>
       </div>
       <div>
-      <img src="./imagenes/Calzas/Calza corta rosa.jpeg" alt="calza corta rosa" class="galeria_imagen"> 
-        <h4>Calza corta rosa</h4>
+      <img src="./imagenes/Calzas/Calza corta rosa.jpeg" alt="calza corta rosa" class="galeria_imagen" data-title="Calza Corta Rosa" data-description="Precio $2500"> 
+        <h5>Calza Corta Rosa</h5>
         <p>Precio $2500</p>
       </div>
       <div>
-      <img src="./imagenes/Calzas/Calza larga gris.jpeg" alt="claza corta gris" class="galeria_imagen">
-        <h4>Calza corta gris</h4>
+      <img src="./imagenes/Calzas/Calza larga gris.jpeg" alt="claza corta gris" class="galeria_imagen" data-title="Calza Larga Gris" data-description="Precio $2500">
+        <h5>Calza Larga Gris</h5>
         <p>Precio $2500</p>
       </div>
       <div>
-        <img src="./imagenes/Calzas/Calza larga tritono.jpeg" alt="claza larga tritono" class="galeria_imagen">
-          <h4>Calza larga tritono</h4>
+        <img src="./imagenes/Calzas/Calza larga tritono.jpeg" alt="claza larga tritono" class="galeria_imagen" data-title="Calza Larga Tritono" data-description="Precio $3200">
+          <h5>Calza Larga Tritono</h5>
           <p>Precio $3200</p>
         </div>
       <div>
-        <img src="./imagenes/Calzas/Calza larga jaspeada.jpeg" alt="calza larga jaspeada" class="galeria_imagen"> 
-        <h4>Calza larga jaspeada</h4>
+        <img src="./imagenes/Calzas/Calza larga jaspeada.jpeg" alt="calza larga jaspeada" class="galeria_imagen" data-title="Calza Larga Jaspeada" data-description="Precio $3200"> 
+        <h5>Calza Larga Jaspeada</h5>
         <p>Precio $3200</p>   
       </div> 
+      </div>  
     </main>
     
 
     <footer>
       <div class="container-fluid text-center">
-        <div class="row p-3 bg-secondary text-black justify-content-center">
+        <div class="row p-3 bg-secondary text-black justify-content-around">
 
           <div class="col-xs-12 col-md-6 col-lg-3">
 
-            <h2>Acerca de nosotros</h2>
+            <h3>ACERCA DE NOSOTROS</h3>
             <p>Somos un emprendimiento familiar que desde el año 2018 se dedica a la venta de ropa deportiva, nos enfocamos en las necesidades de las personas en base a calidad y variedad de productos.</p>
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-3">
 
-            <h2>Redes sociales</h2>
-            <div class="d-flex justify-content-around my-4">
-
+            <h3>REDES SOCIALES</h3>
+            <div class="d-flex justify-content-center my-4">
+              
               <a href="https://www.facebook.com/profile.php?id=100075912772300" target="_blank">
-                <img src="./Imagenes/logo face.svg" alt=" logo de facebook"  width="50"  height="50" />
+                <img src="./Imagenes/logo face.svg" alt=" logo de facebook"  width="50"  height="50" >
               </a>
-                <a href="https://www.instagram.com/sportsilbaigorria/" target="_blank">
-                  <img src="./Imagenes/logo instagram.png" alt=" logo de instagram " width="60" height="60"
-                  >    
-                  </a>
+              <a href="https://www.instagram.com/sportsilbaigorria/" target="_blank" class="ms-3">
+                <img src="./Imagenes/logo instagram.png" alt=" logo de instagram " width="60" height="60"
+                >    
+              </a>
             </div>
           </div>
-
+          
           <div class="col-xs-12 col-md-6 col-lg-3">
-
-            <h2>Contacto</h2>
+            
+            <h3>CONTACTO</h3>
             <p>Dirección: Chile 334 - Granadero Baigorria</p>
             <p>Lunes a Sabados: 9,30 a 12,30 hs / 17 a 19 hs</p>
             <a href="https://api.whatsapp.com/send?phone=%2B543412146877&fbclid=IwAR3HJvJVIt6tEQB2vXOcEQJnJMyCkJMZZKckxulced4S0DVJuIMbFBXsRW4" target="_blank">
               <img src="./imagenes/Logo Wsap.jpg" alt=" logo de whatsapp " width="140" height="50"> 
             </a>
+          </div>
         </div> 
-    </footer>
-  </body>
-</html>
+      </footer>
+      <script src="assets/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/aos/aos.js"></script>
+      
+      <script>
+        AOS.init();
+        
+        const productosLightbox = GLightbox({
+          selector: '.galeria_imagen',
+          zoomable: false
+        });
+      </script>
+    </body>
+  </html>

@@ -1,4 +1,15 @@
 .btn-material {
-background-color: red;
-color: $color-principal;
+  background-color: red;
+  color: $color-principal;
+  .sds {
+    font-size: 12px;
+  }
+}
+
+.class {
+  color: red;
+}
+
+.gabi {
+  background-color: red;
 }
